@@ -128,9 +128,9 @@
 	{meta override=true}
 	<div class="footer">
 		<div class="foot">
-		<a href="" class="nav-foot">Impressum</a>
-		<a href="" class="nav-foot">AGB</a>
-		<a href="" class="nav-foot">Tubuk.digital</a>
+			<div class="nav-foot"><a href="">Impressum</a></div>
+			<div class="nav-foot"><a href="">AGB</a></div>
+			<div class="nav-foot"><a href="">Tubuk.digital</a></div>
 	</div>	
 {/template}
 
