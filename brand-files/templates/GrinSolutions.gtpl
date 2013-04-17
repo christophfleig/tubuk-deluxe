@@ -44,9 +44,9 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>bilandia - Wir k&ouml;nnen was wir tun</title>
-	<meta name="description" content="bilandia GmbH - Buchmarketing">
-	<meta name="author" content="bilandia GmbH - Lisa Ande, Christoph Fleig">
+	<title>Tubuk.deluxe - Der Buchclub für unabhängige Literatur</title>
+	<meta name="description" content="Tubuk.deluxe">
+	<meta name="author" content="Tubuk.deluxe - Lisa Ande, Christoph Fleig">
 
 	<!-- Favicons
 	================================================== -->

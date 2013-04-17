@@ -101,6 +101,26 @@ body {
 	padding-bottom: 5px;
 }
 
+.page {
+	width: 900px;
+	margin: auto;
+	margin-top: 190px;
+}
+
+.sidebar {
+	width: 240px;
+	float: right;
+	display: inline-block;
+	min-height: 300px;
+}
+
+.main {
+	width: 640px;
+	float: left;
+	display: inline-block;
+	min-height: 300px;
+}
+
 .inhalt1 {
 	padding: 55px 0px 55px 0px;
 	width: 780px;
