@@ -121,6 +121,11 @@ body {
 	min-height: 300px;
 }
 
+.blau {
+	color: white;
+	background: #1e7db6;
+}
+
 .inhalt1 {
 	padding: 55px 0px 55px 0px;
 	width: 780px;
