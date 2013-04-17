@@ -108,10 +108,17 @@ body {
 }
 
 .sidebar {
-	width: 240px;
+	width: 250px;
 	float: right;
 	display: inline-block;
 	min-height: 300px;
+}
+
+.sidebar-advert {
+	width: 250px;
+	background: black;
+	height: auto;
+	margin-bottom: 30px;
 }
 
 .main {
