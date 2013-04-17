@@ -119,10 +119,12 @@ body {
 	float: left;
 	display: inline-block;
 	min-height: 300px;
+	border-bottom: 1px solid grey;
 }
 
 .content-top {
 	margin-bottom: 30px;
+	border-bottom: 1px solid grey;
 }
 
 .blau {
@@ -130,6 +132,7 @@ body {
 	background: #1e7db6;
 	padding: 8px 12px;
 	font-size: 20px;
+	margin-bottom: 30px;
 }
 
 .braun {
