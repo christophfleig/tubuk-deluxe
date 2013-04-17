@@ -124,6 +124,8 @@ body {
 .blau {
 	color: white;
 	background: #1e7db6;
+	padding: 8px 12px;
+	font-size: 20px;
 }
 
 .inhalt1 {
