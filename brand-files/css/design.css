@@ -1,0 +1,328 @@
+body {
+	font-family: Times New Roman;
+	font-size: 17px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.header {
+	background: #ffffff;
+	height: auto;
+	width: 100%;
+	margin-top: -8px;
+	position: fixed;
+	z-index: 500;
+}
+
+#menue {
+	padding: 15px 0px 36px 0px;
+	width: 795px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+
+.wir {
+	background: #f5f5f5;
+	height: auto;
+	width: 100%;
+}
+
+.inhalt1 {
+	padding: 55px 0px 55px 0px;
+	width: 780px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	color: black;
+}
+
+.koennen {
+	background: #ebebeb;
+	height: auto;
+	width: 100%;
+}
+
+.inhalt2 {
+	padding: 55px 0px 55px 0px;
+	width: 780px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+	color: white;
+}
+
+.digital {
+	background: #e1e1e1;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
+
+.job {
+	background: #4d4d4d;
+	height: auto;
+	width: 100%;
+}
+
+.kontakt {
+	background: #343434;
+	height: auto;
+	width: 100%;
+	display: block;
+}
+
+.spalte1 {
+	float: left;
+	height: auto;
+	width: 370px;
+	margin: 30px 0px 0px 0px;
+}
+
+.spalte2 {
+	float: right;
+	height: auto;
+	width: 370px;
+	margin: 30px 0px 0px 0px;
+}
+
+#absenden {
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Times New Roman;
+	background: white;
+	border-radius: 3px;
+}
+
+.form {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.pic {
+	height: 11%;
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+
+#buch {
+	display: block;
+	width: 100%;
+}
+
+.email {
+	color: white;
+}
+
+.footer {
+	background: #000000;
+	width: 100%;
+	display: block;
+	height: auto;
+}
+
+.spalteL {
+	float: left;
+	height: auto;
+	width: 370px;
+	margin: 30px 0px 0px 0px;
+}
+
+.spalteR {
+	float: right;
+	height: auto;
+	width: 381px;
+	margin: 50px 15px 0px 0px;
+}
+
+.menue-pics {
+	height: 15px;
+	width: auto;
+}
+
+#impressum {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Times New Roman;
+	background: white;
+	margin-top: 30px;
+}
+
+#news {
+	background: black;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Times New Roman;
+}
+
+#newboxes1 {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    width: 720px;
+    height: auto;
+    bottom: 100px;
+    top: 150px;
+    z-index: 100;
+    padding: 30px;
+    overflow: auto;
+}
+.newbox-text { 
+	background: white; 
+	font-size: 0.75em; 
+	border: 1px solid black; 
+	padding: 10px 20px; 
+	border-radius: 15px; 
+	position: relative; 
+}
+
+.newbox-text a { 
+	color: black; 
+}
+
+.close {
+	margin: -29px 0px 0px 707px;
+	position: fixed;
+}
+
+.sliderFrame {
+	position:relative;
+	width:780px;
+	margin: auto;
+	padding: 200px 0px 0px;
+	} /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
+        
+.slider {
+    width:780px;
+    height:297px;/* Make it the same size as your images */
+	background:#fff url(loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin: auto;/*make the image slider center-aligned */
+    box-shadow: 0px 1px 5px #999999;
+    transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+.slider img {
+	position:relative;
+	border:none;
+	display:none;
+}
+
+/* the link style (if an image is wrapped in a link) */
+.slider a.imgLink {
+	z-index:2;
+	display:none;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:0;
+	padding:0;
+	margin:0;
+	width:50%;
+	height:50%;
+}
+
+#prev2 {
+	/*position: relative;
+	float: left;
+	height: 297px;
+	width: 390px;
+	z-index: 50;*/
+	background: url($BRANDIMGPATH$/slider-arrow-left.png);
+	width: 25px;
+	height: 25px;
+	border: none;
+	margin-top: 3px;
+}
+
+#next2 {
+	/*position: relative;
+	float: left;
+	height: 297px;
+	width: 390px;
+	z-index: 50;*/
+	background: url($BRANDIMGPATH$/slider-arrow-right.png);
+	width: 25px;
+	height: 25px;
+	border: none;
+	margin-top: 3px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+#newsletter {
+	position: fixed;
+	height: auto;
+	width: 320px;
+	text-align: center;
+	padding: 20px 20px 0px;
+	background: rgba(0, 0, 0, 0.85);
+	color: white;
+	margin: 0px 200px;
+	top: 400px;
+	z-index: 100;
+}
+
+#bestaetigen {
+	display: inline;
+	margin: 10px 0px;
+}
+
+#newstext {
+	display: inline;
+	margin: 10px 0px;
+	width: 213px;
+}
+
+.close2 {
+	position: fixed;
+	margin: -32px 0px 0px 166px;
+}
+
+#angabe {
+	font-size: 12px; 
+	color: white;"
+}
+
+#anker {
+	position: absolute;
+	top: 2265px;
+}
+
+#nav {
+	float: right;
+}
+
+.pager.activeSlide { 
+	background-position: 0px 22px; 
+}
+
+.pager:hover {  
+	border: none;
+	color: transparent;
+	background: url($BRANDIMGPATH$/bullets.png);
+	background-position: 0px 22px;
+}
+
+.pager {
+	display: inline;
+	background: url($BRANDIMGPATH$/bullets.png); 
+	width: 22px;
+	height: 22px;
+	color: transparent;
+	border: none;
+	margin: 2px 0px;
+}
