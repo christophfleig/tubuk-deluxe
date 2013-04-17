@@ -9,7 +9,7 @@ body {
 	margin-top: -8px;
 	/*position: fixed;*/
 	z-index: 500;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .head {
@@ -140,6 +140,7 @@ body {
 	background: #967f68;
 	padding: 8px 12px;
 	font-size: 20px;
+	margin-bottom: 30px;
 }
 
 .gelb {
@@ -147,6 +148,7 @@ body {
 	background: #d7ab4c;
 	padding: 8px 12px;
 	font-size: 20px;
+	margin-bottom: 30px;
 }
 
 .inhalt1 {
