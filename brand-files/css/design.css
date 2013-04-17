@@ -1,8 +1,5 @@
 body {
-	font-family: Times New Roman;
-	font-size: 17px;
-	letter-spacing: 1px;
-	line-height: 24px;
+	font-family: Arial;
 }
 
 .header {
@@ -42,7 +39,23 @@ body {
 	padding: 33px 20px;
 	display: inline-block;
 	font-size: 18px;
-	font-family: Arial;
+}
+
+.left-bottom-nav {
+	float: left;
+	font-size: 22px;
+}
+
+.nav-aktu {
+	color: #d7ab4c;
+}
+
+.nav-club {
+	color: #967f68;
+}
+
+.nav-books {
+	color: #b7311b;
 }
 
 .inhalt1 {
