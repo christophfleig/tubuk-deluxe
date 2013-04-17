@@ -121,9 +121,27 @@ body {
 	min-height: 300px;
 }
 
+.content-top {
+	margin-bottom: 30px;
+}
+
 .blau {
 	color: white;
 	background: #1e7db6;
+	padding: 8px 12px;
+	font-size: 20px;
+}
+
+.braun {
+	color: white;
+	background: #967f68;
+	padding: 8px 12px;
+	font-size: 20px;
+}
+
+.gelb {
+	color: white;
+	background: #d7ab4c;
 	padding: 8px 12px;
 	font-size: 20px;
 }
