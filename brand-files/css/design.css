@@ -75,12 +75,22 @@ body {
 	padding-bottom: 20px;
 }
 
+.foot {
+	width: 900px;
+	margin: auto;
+	padding: 15px 0px;
+	height: auto;
+	overflow: hidden;
+}
+
 .nav-foot {
-	color: #e1e1e1;
+	color: grey;
 	padding-right: 20px;
 	padding-left: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	border-right: solid grey 1px;
+	border-left: solid grey 1px;
 }
 
 .inhalt1 {
@@ -155,7 +165,6 @@ h1 {
 }
 
 .footer {
-	background: #000000;
 	width: 100%;
 	display: block;
 	height: auto;
