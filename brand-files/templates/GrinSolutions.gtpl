@@ -97,17 +97,18 @@
 {template .Top}
 	{meta override=true}
 	<div class="header">
-			<div id="menue">
-			<div class="spalteL">
-				<a href="#head">{brand_img('logo.png','','menue')}</a>
-			</div>
-			<div class="spalteR">
-				<a href="#wir">{brand_img('menue-wir.png','','menue-pics')}</a>
-				<a href="#koennen">{brand_img('menue-koennen.png','','menue-pics')}</a>
-				<a href="#digital">{brand_img('menue-digital.png','','menue-pics')}</a>
-				{brand_img('menue-slash.png','','menue-pics')}
-				<a href="#job">{brand_img('menue-job.png','','menue-pics')}</a>
-				<a href="#kontakt">{brand_img('menue-kontakt.png','','menue-pics')}</a>
+		<div class="head">
+			<div class="left-head">
+				<div class="left-top">
+					<div class="left-top-pic">
+					</div>
+					<div class="left-top-text">
+						Der Buchclub für unabhängige Literatur
+					</div>
+				</div>
+				<div class="left-bottom">
+
+				</div>
 			</div>
 		</div>
 	</div>
@@ -124,10 +125,7 @@
 {template .Footer}
 	{meta override=true}
 	<div class="footer">
-		<div style="width: 780px; margin: auto; display: block">
-			<iframe width="780" height="500" src="http://regiohelden.de/google-maps/map.php?width=780&amp;height=500&amp;hl=de&amp;q=Zenettistra%C3%9Fe%2020%2C%2080337%20M%C3%BCnchen+(bilandia%20GmbH)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-			</iframe>
-		</div>
+
 	</div>	
 {/template}
 
