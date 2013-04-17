@@ -26,6 +26,10 @@ body {
 	width: 650px;
 }
 
+.left-top {
+	height: 95px;
+}
+
 .left-top-pic {
 	background: url("$BRANDIMGPATH$/tubukdeluxe_logo_web.png");
 	display: inline-block;

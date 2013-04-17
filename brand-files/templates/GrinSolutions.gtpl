@@ -107,9 +107,9 @@
 					</div>
 				</div>
 				<div class="left-bottom-nav">
-					<a href="" class"nav-aktu">Aktuell</a>
-					<a href="" class"nav-club">Club</a>
-					<a href="" class"nav-books">Bücher</a>
+					<a href="" class="nav-aktu">Aktuell</a>
+					<a href="" class="nav-club">Club</a>
+					<a href="" class="nav-books">Bücher</a>
 				</div>
 			</div>
 		</div>
