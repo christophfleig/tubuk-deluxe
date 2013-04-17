@@ -31,11 +31,16 @@ body {
 
 .left-top-pic {
 	background: url("$BRANDIMGPATH$/tubukdeluxe_logo_web.png");
+	display: inline-block;
+	float: left;
+	height: 91px;
+	width: 250px;
 }
 
 .left-top-text {
 	color: #1e7db6;
 	padding: 20px 0px;
+	display: inline-block;
 }
 
 .inhalt1 {
