@@ -28,6 +28,7 @@ body {
 
 .left-top {
 	height: 95px;
+	margin-bottom: 20px;
 }
 
 .left-top-pic {
@@ -48,22 +49,30 @@ body {
 .left-bottom-nav {
 	float: left;
 	font-size: 22px;
-	margin-top: 20px;
 }
 
 .nav-aktu {
 	color: #d7ab4c;
-	padding: 0px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .nav-club {
 	color: #967f68;
-	padding: 0px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .nav-books {
 	color: #b7311b;	
-	padding: 0px 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .inhalt1 {
