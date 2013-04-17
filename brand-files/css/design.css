@@ -12,7 +12,7 @@ body {
 }
 
 .head {
-	padding: 15px 0px 36px 0px;
+	padding: 15px 0px;
 	width: 900px;
 	height: auto;
 	margin: auto;
@@ -48,18 +48,22 @@ body {
 .left-bottom-nav {
 	float: left;
 	font-size: 22px;
+	margin-top: 20px;
 }
 
 .nav-aktu {
 	color: #d7ab4c;
+	padding: 20px 0px;
 }
 
 .nav-club {
 	color: #967f68;
+	padding: 20px 0px;
 }
 
 .nav-books {
-	color: #b7311b;
+	color: #b7311b;	
+	padding: 20px 0px;
 }
 
 .inhalt1 {
