@@ -46,7 +46,7 @@
 	<meta charset="utf-8">
 	<title>Tubuk.deluxe - Der Buchclub für unabhängige Literatur</title>
 	<meta name="description" content="Tubuk.deluxe">
-	<meta name="author" content="Tubuk.deluxe - Lisa Ande, Christoph Fleig">
+	<meta name="author" content="Tubuk.deluxe">
 
 	<!-- Favicons
 	================================================== -->
