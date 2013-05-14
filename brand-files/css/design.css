@@ -76,6 +76,12 @@ body {
 	padding-bottom: 20px;
 }
 
+.active-nav {
+border-left: 1px solid black;
+border-right: 1px solid black; 
+
+}
+
 .foot {
 	width: 900px;
 	margin: auto;

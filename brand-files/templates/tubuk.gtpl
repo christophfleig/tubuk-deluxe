@@ -107,9 +107,27 @@
 					</div>
 				</div>
 				<div class="left-bottom-nav">
+					
+				{if GrinEnv.request_full_path == "/index.html"}
+					<a href="index.html" class="nav-aktu active-nav">Aktuell</a>
+					<a href="club.html" class="nav-club">Club</a>
+					<a href="buecher.html" class="nav-books">Bücher</a>
+				
+				{elseif GrinEnv.request_full_path == "/club.html"}	
+					<a href="index.html" class="nav-aktu">Aktuell</a>
+					<a href="club.html" class="nav-club active-nav">Club</a>
+					<a href="buecher.html" class="nav-books">Bücher</a>
+				
+				{elseif GrinEnv.request_full_path == "/buecher.html"}
+					<a href="index.html" class="nav-aktu">Aktuell</a>
+					<a href="club.html" class="nav-club">Club</a>
+					<a href="buecher.html" class="nav-books active-nav">Bücher</a>
+				{else}	
 					<a href="index.html" class="nav-aktu">Aktuell</a>
 					<a href="club.html" class="nav-club">Club</a>
 					<a href="buecher.html" class="nav-books">Bücher</a>
+				{/if}
+				
 				</div>
 			</div>
 		</div>
